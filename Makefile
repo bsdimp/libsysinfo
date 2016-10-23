@@ -1,7 +1,7 @@
 LIB		= sysinfo
 LIBDIR		= ${PREFIX}/lib/
-INCLUDEDIR 	= ${PREFIX}/include/sys/
-MANDIR		= ${PREFIX}/man/man3
+INCLUDEDIR 	= ${DESTDIR}/${PREFIX}/include/sys/
+MANDIR		= ${DESTDIR}/${PREFIX}/man/man3
 SHLIB_MAJOR	= 0
 WITHOUT_PROFILE = yes
 MAKEOBJDIRPREFIX= /
